@@ -46,6 +46,8 @@ with open(csvpath) as csvfile:
             profit_loss_change = current_month_profit_loss - previous_month_profit_loss
             
             months.append(row[0])
+        
+
             
             profit_loss_changes.append(profit_loss_change)
             previous_month_profit_loss = current_month_profit_loss
